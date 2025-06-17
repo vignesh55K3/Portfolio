@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Data Analyst Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background: #f5f5f5;
+      color: #333;
+    }
+
+    .header, .footer {
+      background: linear-gradient(to right, #2c3e50, #34495e);
+      color: white;
+      text-align: center;
+      padding: 1.5rem 1rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      letter-spacing: 1px;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 2rem;
+      font-size: 2rem;
+      color: #003366;
+    }
+
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+    }
+
+    .card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+    }
+
+    .card h3 {
+      margin: 1rem 0 0.5rem;
+      color: #003366;
+    }
+
+    .card p {
+      padding: 0 1rem 1rem;
+      color: #555;
+    }
+
+    .button {
+      display: inline-block;
+      margin: 1rem auto;
+      padding: 0.6rem 1.2rem;
+      background-color: #003366;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #336699;
+    }
+
+    .footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+    }
+
+    .footer .resume-link {
+      margin-top: 1rem;
+    }
+
+    .footer .resume-link a {
+      display: inline-block;
+      background: #1abc9c;
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .footer .resume-link a:hover {
+      background: #16a085;
+    }
+
+    .footer .social {
+      margin-top: 1rem;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+
+    .footer .social a {
+      color: white;
+      text-decoration: none;
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: color 0.3s ease;
+    }
+
+    .footer .social a:hover {
+      color: #1abc9c;
+    }
+
+    @media (max-width: 500px) {
+      .header h1, h2 {
+        font-size: 1.6rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Vigneshkumar – Data Analyst & Machine Learning Enthusiast</h1>
+  </div>
+
+  <div class="container">
+    <h2>Featured Projects</h2>
+    <div class="project-grid">
+      <div class="card">
+        <img src="texas.jpg" alt="SQL Project" style="width:350px; height:200px;">
+        <h3>Salary Prediction in Texas Using Machine Learning:</h3>
+        <p><b>I developed a salary prediction model for Texas using Python, applying data cleaning, EDA, and regression models to forecast salaries and support informed decisions for job seekers and HR professionals.</b></p>
+        <a class="button" href="https://github.com/vignesh55K3/Texas_Salary_Prediction_using_machineLearning.git">View Project</a>
+      </div>
+
+      <div class="card">
+        <img src="fizcon.jpg" alt="Data Exploration" style="width:350px; height:200px;">
+        <h3>Client Project: Sales Lead Categorization (Ficzon Inc):</h3>
+        <p><b>Developed a sales lead model for Ficzon Inc using Python, Machine Learning, and Artificial Neural Networks (ANN). The goal was to classify leads into different categories and improve conversion rates and streamline the sales pipeline.</b></p>
+        <a class="button" href="https://github.com/vignesh55K3/-Client-Project-Sales-Lead-Categorization-Ficzon-Inc-.git">View Project</a>
+      </div>
+
+      <div class="card">
+        <img src="hrpowerbi.jpg" alt="Power BI Projects" style="width:350px; height:200px;">
+        <h3>HR Dashboard (Power BI)</h3>
+        <p><b>Built an interactive HR Dashboard in Power BI to analyze employee data. Identified high attrition in Sales and Support teams, mainly among employees with less than 2 years of experience. Helped HR make informed decisions to boost retention.</b></p>
+        <a class="button" href="https://github.com/vignesh55K3/-HR_Analytics_PowerBI.git">View Project</a>
+      </div>
+
+      <div class="card">
+        <img src="hrml.jpg" alt="HR Projects" style="width:350px; height:200px;">
+        <h3>HR Attrition Analysis using Python, ML</h3>
+        <p><b>Developed a machine learning model in Python to predict employee attrition, identifying key factors like department and experience level to support better HR decision-making. </b></p>
+        <a class="button" href="https://github.com/vignesh55K3/HR-Employee-Attrition-Python.git">View Project</a>
+      </div>
+
+      <div class="card">
+        <img src="adidas.jpg" alt="adidas Projects" style="width:350px; height:200px;">
+        <h3>Adidas Sales Analysis using Power BI</h3>
+        <p><b>Analyzed Adidas sales data using Power BI to uncover performance trends. Identified top-selling products and high-performing regions. Supported data-driven marketing and sales strategies.</b></p>
+        <a class="button" href="https://github.com/vignesh55K3/Adidas-Sales-Analysis-using-Power-BI.git">View Project</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>&copy; 2025 Vigneshkumar B | Contact Me</p>
+
+    <div class="resume-link">
+      <a href="VIGNESHKUMAR_B.pdf" target="_blank"><i class="fas fa-file-alt"></i> View Resume</a>
+    </div>
+
+    <div class="social">
+      <a href="mailto:vigneshvicky552k3@gmail.com"><i class="fas fa-envelope"></i>Email</a>
+      <a href="https://www.linkedin.com/in/vignesh-kumar-b-" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</a>
+      <a href="https://github.com/vignesh55K3" target="_blank"><i class="fab fa-github"></i>GitHub</a>
+      <a href="tel:+919894469330"><i class="fas fa-phone"></i>+91 98944 69330</a>
+    </div>
+  </div>
+</body>
+</html>
+
